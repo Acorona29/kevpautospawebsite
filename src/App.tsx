@@ -66,6 +66,12 @@ function App() {
                   <X className="h-6 w-6" />
                 ) : (
                   <Menu className="h-6 w-6" />
+                )}
+              </button>
+            </div>
+
+            {/* Desktop Navigation - Left side */}
+            <nav className="hidden md:flex items-center space-x-8">
               <button
                 onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
                 className="text-white/80 hover:text-white px-2 py-2 text-sm font-medium transition-colors duration-200"
