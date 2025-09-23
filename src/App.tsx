@@ -98,12 +98,6 @@ function App() {
             {/* Desktop Navigation - Right side */}
             <nav className="hidden md:flex items-center space-x-8">
               <button
-                onClick={() => document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' })}
-                className="text-white/80 hover:text-white px-2 py-2 text-sm font-medium transition-colors duration-200"
-              >
-                Book Now
-              </button>
-              <button
                 onClick={() => document.getElementById('pricing')?.scrollIntoView({ behavior: 'smooth' })}
                 className="text-white/80 hover:text-white px-2 py-2 text-sm font-medium transition-colors duration-200"
               >
