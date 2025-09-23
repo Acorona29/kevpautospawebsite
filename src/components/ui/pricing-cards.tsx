@@ -17,7 +17,7 @@ function Pricing() {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat min-h-full"
         style={{
-          backgroundImage: `url('/src/lib/jan-vlacuha-U4IaoKF5aj4-unsplash.jpg')`
+          backgroundImage: `url('/images/jan-vlacuha-U4IaoKF5aj4-unsplash.jpg')`
         }}
       />
       {/* Dark overlay for text readability */}
@@ -44,7 +44,7 @@ function Pricing() {
               <div 
                 className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                 style={{
-                  backgroundImage: `url('/src/lib/7359334a-84df-4f0d-a6c1-bf4096d70a2a.png')`
+                  backgroundImage: `url('/images/7359334a-84df-4f0d-a6c1-bf4096d70a2a.png')`
                 }}
               />
               <div className="absolute inset-0 bg-black/60" />
@@ -133,7 +133,7 @@ function Pricing() {
               <div 
                 className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                 style={{
-                  backgroundImage: `url('/src/lib/7359334a-84df-4f0d-a6c1-bf4096d70a2a.png')`
+                  backgroundImage: `url('/images/7359334a-84df-4f0d-a6c1-bf4096d70a2a.png')`
                 }}
               />
               <div className="absolute inset-0 bg-black/60" />
@@ -213,7 +213,7 @@ function Pricing() {
               <div 
                 className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                 style={{
-                  backgroundImage: `url('/src/lib/7359334a-84df-4f0d-a6c1-bf4096d70a2a.png')`
+                  backgroundImage: `url('/images/7359334a-84df-4f0d-a6c1-bf4096d70a2a.png')`
                 }}
               />
               <div className="absolute inset-0 bg-black/60" />
