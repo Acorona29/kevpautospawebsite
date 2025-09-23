@@ -66,12 +66,6 @@ function App() {
                   <X className="h-6 w-6" />
                 ) : (
                   <Menu className="h-6 w-6" />
-                )}
-              </button>
-            </div>
-
-            {/* Desktop Navigation - Left side */}
-            <nav className="hidden md:flex items-center space-x-8">
               <button
                 onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
                 className="text-white/80 hover:text-white px-2 py-2 text-sm font-medium transition-colors duration-200"
@@ -83,12 +77,6 @@ function App() {
                 className="text-white/80 hover:text-white px-2 py-2 text-sm font-medium transition-colors duration-200"
               >
                 About
-              </button>
-              <button
-                onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
-                className="text-white/80 hover:text-white px-2 py-2 text-sm font-medium transition-colors duration-200"
-              >
-                Gallery
               </button>
             </nav>
 
@@ -146,24 +134,6 @@ function App() {
                 className="text-white hover:text-gray-300 block px-3 py-2 text-base font-medium w-full text-left"
               >
                 About
-              </button>
-              <button
-                onClick={() => {
-                  document.getElementById('gallery')?.scrollIntoView({ behavior: 'smooth' });
-                  setIsMenuOpen(false);
-                }}
-                className="text-white hover:text-gray-300 block px-3 py-2 text-base font-medium w-full text-left"
-              >
-                Gallery
-              </button>
-              <button
-                onClick={() => {
-                  document.getElementById('booking')?.scrollIntoView({ behavior: 'smooth' });
-                  setIsMenuOpen(false);
-                }}
-                className="text-white hover:text-gray-300 block px-3 py-2 text-base font-medium w-full text-left"
-              >
-                Book Now
               </button>
               <button
                 onClick={() => {
