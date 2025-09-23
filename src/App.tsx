@@ -310,7 +310,7 @@ function App() {
               <div className="grid grid-cols-1 gap-8">
                 <div>
                   <div className="text-sm text-gray-200 mb-3 font-medium">Hours</div>
-                  <p className="text-white font-normal">Monday–Sunday: 9:00 AM – 5:00 PM</p>
+                  <p className="text-white font-normal">Monday–Sunday: 6:00 AM – 5:00 PM</p>
                 </div>
                 
                 <div>
