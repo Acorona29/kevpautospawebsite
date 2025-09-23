@@ -252,7 +252,7 @@ function App() {
             <div data-anim className="relative">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                 <img 
-                  src="/src/lib/65b1fa0e-3bc2-4f9f-baf3-d8d391c7f4df.png" 
+                  src="/images/65b1fa0e-3bc2-4f9f-baf3-d8d391c7f4df.png" 
                   alt="Kev's Auto Spa Logo"
                   className="w-full h-96 object-cover bg-black"
                 />
