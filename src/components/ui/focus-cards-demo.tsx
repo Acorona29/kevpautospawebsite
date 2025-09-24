@@ -7,6 +7,14 @@ export function FocusCardsDemo() {
       src: "/images/IMG_8384.png",
     },
     {
+      title: "Exterior Wash",
+      src: "/images/IMG_9018.png",
+    },
+    {
+      title: "Exterior Wash", 
+      src: "/images/IMG_9026.png",
+    },
+    {
       title: "Interior Wash", 
       src: "/images/IMG_8383-preview.png",
     },
@@ -29,6 +37,10 @@ export function FocusCardsDemo() {
     {
       title: "Window Shine",
       src: "/images/IMG_8885-preview.png",
+    },
+    {
+      title: "Paint Protection",
+      src: "/images/IMG_8393.png",
     },
   ];
 
