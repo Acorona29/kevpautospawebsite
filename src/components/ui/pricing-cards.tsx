@@ -65,14 +65,17 @@ function Pricing() {
                   <div className="flex flex-col gap-2">
                     <div className="flex flex-row items-center gap-2 text-lg">
                       <span className="text-2xl text-white font-medium">$50</span>
+                      <span className="text-sm text-gray-200 font-normal">for</span>
                       <span className="text-sm text-gray-200 font-normal">Sedan</span>
                     </div>
                     <div className="flex flex-row items-center gap-2 text-lg">
                       <span className="text-2xl text-white font-medium">$65</span>
+                      <span className="text-sm text-gray-200 font-normal">for</span>
                       <span className="text-sm text-gray-200 font-normal">SUV</span>
                     </div>
                     <div className="flex flex-row items-center gap-2 text-lg">
                       <span className="text-2xl text-white font-medium">$70</span>
+                      <span className="text-sm text-gray-200 font-normal">for</span>
                       <span className="text-sm text-gray-200 font-normal">Truck</span>
                     </div>
                   </div>
@@ -153,15 +156,18 @@ function Pricing() {
                 <div className="flex flex-col gap-8 justify-start">
                   <div className="flex flex-col gap-2">
                     <div className="flex flex-row items-center gap-2 text-lg">
-                      <span className="text-2xl text-white font-medium">$50</span>
+                      <span className="text-2xl text-white font-medium">$75</span>
+                      <span className="text-sm text-gray-200 font-normal">for</span>
                       <span className="text-sm text-gray-200 font-normal">Sedan</span>
                     </div>
                     <div className="flex flex-row items-center gap-2 text-lg">
-                      <span className="text-2xl text-white font-medium">$65</span>
+                      <span className="text-2xl text-white font-medium">$85</span>
+                      <span className="text-sm text-gray-200 font-normal">for</span>
                       <span className="text-sm text-gray-200 font-normal">SUV</span>
                     </div>
                     <div className="flex flex-row items-center gap-2 text-lg">
-                      <span className="text-2xl text-white font-medium">$70</span>
+                      <span className="text-2xl text-white font-medium">$95</span>
+                      <span className="text-sm text-gray-200 font-normal">for</span>
                       <span className="text-sm text-gray-200 font-normal">Truck</span>
                     </div>
                   </div>
@@ -234,14 +240,17 @@ function Pricing() {
                   <div className="flex flex-col gap-2">
                     <div className="flex flex-row items-center gap-2 text-lg">
                       <span className="text-2xl text-white font-medium">$100</span>
+                      <span className="text-sm text-gray-200 font-normal">for</span>
                       <span className="text-sm text-gray-200 font-normal">Sedan</span>
                     </div>
                     <div className="flex flex-row items-center gap-2 text-lg">
                       <span className="text-2xl text-white font-medium">$125</span>
+                      <span className="text-sm text-gray-200 font-normal">for</span>
                       <span className="text-sm text-gray-200 font-normal">SUV</span>
                     </div>
                     <div className="flex flex-row items-center gap-2 text-lg">
                       <span className="text-2xl text-white font-medium">$150</span>
+                      <span className="text-sm text-gray-200 font-normal">for</span>
                       <span className="text-sm text-gray-200 font-normal">Truck</span>
                     </div>
                   </div>

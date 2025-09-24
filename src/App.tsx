@@ -6,6 +6,7 @@ import { Hero } from '@/components/ui/hero-with-group-of-images-text-and-two-but
 import { FeaturesSectionWithHoverEffects } from '@/components/ui/feature-section-with-hover-effects';
 import { HoverButton } from '@/components/ui/hover-button';
 import BookingEmbed from '@/components/BookingEmbed';
+import { FocusCardsDemo } from '@/components/ui/focus-cards-demo';
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -234,6 +235,24 @@ function App() {
       {/* Pricing */}
       <section id="pricing" className="pt-0">
         <Pricing />
+      </section>
+
+      {/* Gallery */}
+      <section id="gallery" className="py-16 md:py-24 bg-gray-50">
+        <div className="mx-auto max-w-7xl px-4">
+          <div className="text-center mb-12" data-anim>
+            <h2 className="text-3xl md:text-4xl font-medium text-gray-900 mb-4">
+              Gallery
+            </h2>
+            <p className="text-gray-600 text-lg font-normal max-w-2xl mx-auto">
+              Kev's Auto Spa recent projects
+            </p>
+          </div>
+          
+          <div className="max-w-6xl mx-auto" data-anim>
+            <FocusCardsDemo />
+          </div>
+        </div>
       </section>
 
       {/* Booking Section */}
