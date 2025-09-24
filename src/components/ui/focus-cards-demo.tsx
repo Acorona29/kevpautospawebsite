@@ -16,7 +16,7 @@ export function FocusCardsDemo() {
     },
     {
       title: "Interior Wash",
-      src: "/images/IMG_8383-preview.png",
+      src: "/images/IMG_8885-preview.png",
     },
     {
       title: "Tire & Rim Care",
