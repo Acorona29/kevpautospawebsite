@@ -299,7 +299,11 @@ function App() {
               <div className="grid grid-cols-1 gap-8">
                 <div>
                   <div className="text-sm text-gray-200 mb-3 font-medium">Hours</div>
-                  <p className="text-white font-normal">Monday–Sunday: 6:00 AM – 8:00 PM</p>
+                  <div className="text-white font-normal">
+                    <p className="sm:hidden">Mon–Sun</p>
+                    <p className="hidden sm:block">Monday–Sunday</p>
+                    <p className="text-sm sm:text-base">6:00 AM – 8:00 PM</p>
+                  </div>
                 </div>
                 
                 <div>

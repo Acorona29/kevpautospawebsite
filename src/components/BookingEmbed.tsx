@@ -45,9 +45,12 @@ export default function BookingEmbed() {
 
       {/* Service Hours */}
       <div className="bg-gray-50 rounded-xl p-6">
-        <div className="flex items-center justify-center gap-3 text-gray-700">
-          <span className="font-medium">Service Hours:</span>
-          <span>Monday–Sunday: 6:00 AM – 8:00 PM</span>
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-3 text-gray-700 text-center">
+          <span className="font-medium text-sm sm:text-base">Service Hours:</span>
+          <div className="text-sm sm:text-base">
+            <span className="sm:hidden">Mon–Sun: 6:00 AM – 8:00 PM</span>
+            <span className="hidden sm:inline">Monday–Sunday: 6:00 AM – 8:00 PM</span>
+          </div>
         </div>
       </div>
     </div>
