@@ -15,7 +15,7 @@ export function FocusCardsDemo() {
       src: "/images/IMG_9026.png",
     },
     {
-      title: "Interior Wash", 
+      title: "Interior Wash",
       src: "/images/IMG_8383-preview.png",
     },
     {
@@ -27,16 +27,16 @@ export function FocusCardsDemo() {
       src: "/images/pexels-kampratt-8192663.jpg",
     },
     {
-      title: "Dashboard Detail",
-      src: "/images/IMG_8382-preview.png",
+      title: "Window Shine",
+      src: "/images/IMG_9026.png",
     },
     {
       title: "Floor Mat Wash",
       src: "/images/IMG_61F527D5E079-1.png",
     },
     {
-      title: "Window Shine",
-      src: "/images/IMG_8885-preview.png",
+      title: "Dashboard Detail",
+      src: "/images/IMG_8382-preview.png",
     },
     {
       title: "Paint Protection",
