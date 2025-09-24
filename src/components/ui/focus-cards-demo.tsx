@@ -11,10 +11,6 @@ export function FocusCardsDemo() {
       src: "/images/IMG_9018.png",
     },
     {
-      title: "Exterior Wash", 
-      src: "/images/IMG_9026.png",
-    },
-    {
       title: "Interior Wash",
       src: "/images/IMG_8885-preview.png",
     },
