@@ -4,7 +4,6 @@ export function FocusCardsDemo() {
   const cards = [
     {
       title: "Exterior Wash",
-import Gallery from './components/Gallery.tsx';
       src: "/images/IMG_8384.png",
     },
     {
@@ -46,9 +45,18 @@ import Gallery from './components/Gallery.tsx';
   ];
 
   return <FocusCards cards={cards} />;
+}
+
+import Gallery from './components/Gallery.tsx';
+import { Router, Routes, Route } from 'react-router-dom';
+
+function App() {
+  return (
     <Router>
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/gallery" element={<Gallery />} />
       </Routes>
     </Router>
+  );
+}
