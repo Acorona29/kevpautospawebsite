@@ -32,7 +32,7 @@ export function FocusCardsDemo() {
     },
     {
       title: "Dashboard Detail",
-      src: "/images/IMG_8382-preview.png",
+      src: "/images/IMG_8384.png",
     },
     {
       title: "Paint Protection",
