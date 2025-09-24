@@ -23,7 +23,6 @@
     "motion": "^12.23.14",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^7.9.1",
     "react-use-measure": "^2.1.7",
     "tailwind-merge": "^3.3.1",
     "usehooks-ts": "^3.1.1"
