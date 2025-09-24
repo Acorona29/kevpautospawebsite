@@ -245,7 +245,7 @@ function App() {
               Gallery
             </h2>
             <p className="text-gray-600 text-lg font-normal max-w-2xl mx-auto">
-              Kev's Auto Spa recent projects
+              Kev's Auto Spa's recent projects
             </p>
           </div>
           
